@@ -1,4 +1,4 @@
 <div>
-    <livewire:admin.dashboard.widget.info-box  lazy="true"/>
-    <livewire:admin.dashboard.widget.info-chart/>
+    <livewire:admin.dashboard.widget.info-box/>
+    <livewire:admin.dashboard.widget.info-chart :lazy="true"/>
 </div>
