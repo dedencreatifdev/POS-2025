@@ -34,7 +34,7 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="{{ route('dashboard.sales') }}"
+                                <a wire:navigate href="{{ route('dashboard.sales') }}"
                                     class="nav-link {{ request()->routeIs('dashboard.sales') ? 'active' : '' }}">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Sales</p>
@@ -59,7 +59,7 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="{{ route('produk.list') }}"
+                                <a wire:navigate href="{{ route('produk.list') }}"
                                     class="nav-link {{ request()->routeIs('produk.list') ? 'active' : '' }}">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Produk List</p>

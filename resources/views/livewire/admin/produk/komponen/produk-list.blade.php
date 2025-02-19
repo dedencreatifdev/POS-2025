@@ -64,7 +64,7 @@
                                         </td>
                                         <td>
                                             <div class="d-none d-sm-block">
-                                                {{ $item->relProdukDetail->unit }}
+                                                {{ $item->relProdukDetail->relSatuan->name }}
                                             </div>
                                         </td>
                                         <td>
