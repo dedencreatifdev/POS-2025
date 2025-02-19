@@ -15,7 +15,7 @@ class ProdukList extends Component
         return view(
             'livewire.admin.produk.komponen.produk-list',
             [
-                'produks' => Produk::paginate(20)
+                'produks' => Produk::paginate(21)
             ]
         );
     }

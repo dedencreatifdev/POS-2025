@@ -77,7 +77,7 @@
                                         <td class="text-right">{{ number_format($item->avg_cost, 2) }}</td>
                                         <td>
                                             <div class="d-none d-sm-block">
-                                                GD204
+                                                GD204001
                                             </div>
                                         </td>
                                         <td></td>
