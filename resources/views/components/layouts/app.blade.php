@@ -11,7 +11,7 @@
     href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="{{ asset('style/plugins/fontawesome-free/css/all.min.css') }}">
-    <!-- Theme style -->
+    <link rel="stylesheet" href="{{ asset('style/plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
     <link rel="stylesheet" href="{{ asset('style/dist/css/adminlte.min.css') }}">
 
 
@@ -30,6 +30,11 @@
 
 <body class="text-sm hold-transition light-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
     <div class="wrapper">
+
+        <!-- Preloader -->
+        {{-- <div class="preloader flex-column justify-content-center align-items-center">
+            <img class="animation__wobble" src="{{ asset('style/dist/img/AdminLTELogo.png') }}" alt="AdminLTELogo" height="60" width="60">
+        </div> --}}
 
         <livewire:komponen.navbar-menu />
         <livewire:komponen.sidebar-menu />
