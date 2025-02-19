@@ -55,34 +55,33 @@
                             </thead>
                             <tbody>
                                 @foreach ($produks as $item)
-                                <tr>
-                                    <td>1</td>
-                                    <td>{{ $item->relProdukDetail->code }}</td>
-                                    <td>
-                                        {{ $item->relProdukDetail->name }}
-                                        
-                                    </td>
-                                    <td>
-                                        <div class="d-none d-sm-block">
-                                            {{ $item->relProdukDetail->unit }}
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="d-none d-sm-block">
-                                            {{ $item->relProdukDetail->brand }}
-                                        </div>
-                                    </td>
-                                    <td>{{ $item->relProdukDetail->price }}</td>
-                                    <td>{{ $item->quantity }}</td>
-                                    <td>{{ $item->avg_cost }}</td>
-                                    <td>
-                                        <div class="d-none d-sm-block">
-                                            GD204
-                                        </div>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                                    
+                                    <tr>
+                                        <td>1</td>
+                                        <td>{{ $item->relProdukDetail->code }}</td>
+                                        <td>
+                                            {{ $item->relProdukDetail->name }}
+
+                                        </td>
+                                        <td>
+                                            <div class="d-none d-sm-block">
+                                                {{ $item->relProdukDetail->unit }}
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="d-none d-sm-block">
+                                                {{ $item->relProdukDetail->brand }}
+                                            </div>
+                                        </td>
+                                        <td class="text-right">{{ number_format($item->relProdukDetail->price, 2) }}</td>
+                                        <td class="text-center">{{ number_format($item->quantity, 2) }}</td>
+                                        <td class="text-right">{{ number_format($item->avg_cost, 2) }}</td>
+                                        <td>
+                                            <div class="d-none d-sm-block">
+                                                GD204
+                                            </div>
+                                        </td>
+                                        <td></td>
+                                    </tr>
                                 @endforeach
                             </tbody>
                         </table>
