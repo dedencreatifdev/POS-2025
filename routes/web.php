@@ -7,4 +7,4 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/',DashboardSales::class);
+Route::get('/',DashboardSales::class)->name('dashboard.sales');
