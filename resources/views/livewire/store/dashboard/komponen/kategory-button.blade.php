@@ -1,6 +1,6 @@
 <div>
     <div class="m-0 row">
-        <div class="px-1 col-1">
+        <div class="px-1 col-3 ">
             <div class="m-0 card">
                 <img class="card-img-top"
                     src="https://static.jakmall.id/2024/06/images/products/25735b/thumbnail/fruity-licious-mango-15ml-liquid-vape-saltnic.jpeg"
