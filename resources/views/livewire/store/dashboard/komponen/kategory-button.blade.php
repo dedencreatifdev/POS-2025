@@ -7,7 +7,7 @@
                     <div class="mx-0 my-1 card">
                         <img class="card-img-top"
                             src="https://static.jakmall.id/2024/06/images/products/25735b/thumbnail/fruity-licious-mango-15ml-liquid-vape-saltnic.jpeg"
-                            alt="Card image cap" style="height: 65px">
+                            alt="Card image cap" style="height: 60px">
                         <div class="p-1 card-body">
                             <small>Liquid</small>
                         </div>
