@@ -42,9 +42,9 @@
                                             Merk
                                         </div>
                                     </th>
-                                    <th>Harga</th>
+                                    <th class="text-center">Harga</th>
                                     <th>Stok</th>
-                                    <th>Harga Hpp</th>
+                                    <th class="text-center">Hpp</th>
                                     <th>
                                         <div class="d-none d-sm-block">
                                             Gudang
