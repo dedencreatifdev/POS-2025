@@ -17,13 +17,13 @@
                 @endfor
             </tr> --}}
             <tr>
-                @for ($i = 0; $i < 24; $i++)
+                @foreach ($merk as $item)
                     <td>
                         <a class="m-1 text-sm btn btn-app">
-                            <i class="fas fa-edit"></i> Edit
+                            <i class="fas fa-edit"></i> <small>{{ $item->name }}</small>
                         </a>
                     </td>
-                @endfor
+                @endforeach
             </tr>
         </table>
     </div>
