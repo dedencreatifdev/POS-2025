@@ -17,7 +17,7 @@
                         <img src="https://m.media-amazon.com/images/I/81o0nv1qK1L._AC_UF1000,1000_QL80_.jpg"
                             class="card-img-top" alt="...">
                         <div class="p-1 card-body">
-                            <h5 class="text-sm card-title text-bold text-dark">{{ $item->relProdukDetail->name }}</h5>
+                            <h5 class="text-sm card-title text-bold text-dark">{{ substr($item->name, 0, 18) }}</h5>
                             <p class="card-text text-dark">Some quick example text to build on the card title and make
                                 up the bulk
                                 of

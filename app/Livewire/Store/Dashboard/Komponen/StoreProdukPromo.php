@@ -13,7 +13,7 @@ class StoreProdukPromo extends Component
     public function render()
     {
         return view('livewire.store.dashboard.komponen.store-produk-promo', [
-            'produks_promo' => Produk::paginate(24)
+            'produks_promo' => Produk::where('promotion','1')->paginate(24)
         ]);
     }
 }
