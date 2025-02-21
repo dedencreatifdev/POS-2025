@@ -18,6 +18,13 @@
                             <div class="mx-1 my-1 card" style="width: 10rem;">
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvCdRF6Uk0-Dc74_oneS-URNGSW1oaarJXpw&s"
                                     class="card-img-top" alt="{{ substr($item->name, 0, 3) }}">
+
+                                <div class="ribbon-wrapper ribbon-md">
+                                    <div class="text-sm ribbon bg-danger">
+                                        25%
+                                    </div>
+                                </div>
+
                                 <div class="p-1 text-center card-body">
                                     {{-- <h5 class="text-sm card-title text-bold text-dark">{{ $item->relProdukDetail->name }}</h5>
                                     <br> --}}
