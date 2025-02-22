@@ -12,13 +12,13 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="{{ asset('storage/slider.png') }}" class="d-block w-100" alt="slider1">
+                        <img src="{{ asset('storage/slider1.png') }}" class="d-block w-100" alt="slider1">
                     </div>
                     <div class="carousel-item">
-                        <img src="{{ asset('storage/slider.png') }}" class="d-block w-100" alt="...">
+                        <img src="{{ asset('storage/slider1.png') }}" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="{{ asset('storage/slider.png') }}"
+                        <img src="{{ asset('storage/slider1.png') }}"
                             class="d-block w-100" alt="...">
                     </div>
                 </div>
