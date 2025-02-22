@@ -1,5 +1,5 @@
-<div class="">
-    <div class="mt-4 row">
+<div class="bg-white">
+    <div class="p-2 mt-4 row">
         <div class="col">
             <h5 class="card-title text-bold">Promo Hari Ini </h5>
             <p class="text-bold"></p>
@@ -7,6 +7,7 @@
         <div class="text-right col">
             <p>Lihat Semua</p>
         </div>
+        <hr>
     </div>
 
     <div class="table-responsive">
@@ -50,4 +51,5 @@
             </tr>
         </table>
     </div>
+
 </div>
