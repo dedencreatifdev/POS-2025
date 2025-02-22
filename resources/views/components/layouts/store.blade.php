@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/grid.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.12.1-web/css/all.min.css" />
@@ -38,7 +39,7 @@
                             </div>
                         </li>
                         <li class="header__navbar-item">
-                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <span class="header__navbar-title--no-pointer">Sosial Media Kami</span>
 
                             <a href="" class="header__navbar-icon-link">
                                 <i class="header__navbar-icon fab fa-facebook"></i>
@@ -52,7 +53,7 @@
                         <li class="header__navbar-item header__navbar-item--has-notify">
                             <a href="" class="header__navbar-item-link">
                                 <i class="header__navbar-icon far fa-bell"></i>
-                                Thông báo
+                                Informasi
                             </a>
                             <div class="header__notify">
                                 <header class="header__notify-header">
@@ -107,7 +108,7 @@
                             <a href="" class="header__navbar-item-link">
                                 <i class="header__navbar-icon far fa-question-circle"></i>
 
-                                Trợ giúp
+                                Tentang Kami
                             </a>
                         </li>
                         <!-- <li
@@ -120,7 +121,7 @@
               </li> -->
                         <li class="header__navbar-item header__navbar-user">
                             <img src="./assets/img/user_avatar.png" alt="" class="header__navbar-user-img" />
-                            <span class="header__navbar-user-name"> Tín Phạm </span>
+                            <span class="header__navbar-user-name"> My Account </span>
                             <ul class="header__navbar-user-menu">
                                 <li class="header__navbar-user-item">
                                     <a href="">Tài khoản của tôi</a>
@@ -162,7 +163,7 @@
                     <div class="header__search">
                         <div class="header__search-input-wrap">
                             <input type="text" class="header__search-input"
-                                placeholder="Nhập để tìm kiếm sản phẩm" />
+                                placeholder="Cari produk favorit mu.." />
 
                             <!-- Search history -->
                             <div class="header__search-history">
