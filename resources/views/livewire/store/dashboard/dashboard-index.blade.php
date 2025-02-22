@@ -1,4 +1,4 @@
-<div>
+<div class="container gap-4">
     <livewire:store.dashboard.komponen.carosel-promo />
     <livewire:store.dashboard.komponen.kategory-button />
     <livewire:store.dashboard.komponen.store-produk-promo />

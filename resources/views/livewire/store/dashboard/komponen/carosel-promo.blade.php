@@ -15,10 +15,10 @@
                         <img src="{{ asset('storage/slider.png') }}" class="d-block w-100" alt="slider1">
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="{{ asset('storage/slider.png') }}" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://www.vapewholesaleglobal.com/cdn/shop/articles/do-you-think-about-starting-a-vape-shop.jpg?v=1661226067"
+                        <img src="{{ asset('storage/slider.png') }}"
                             class="d-block w-100" alt="...">
                     </div>
                 </div>
