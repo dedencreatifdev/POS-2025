@@ -1,5 +1,5 @@
-<div>
-    <div class="m-0 row">
+<div class="mb-4">
+    <div class="row">
         <div class="px-1 py-0 mt-3 col ">
             <div class="p-1 my-1 card card-lightblue card-outline">
                 <div class="p-1 text-center card-body">
@@ -9,7 +9,7 @@
         </div>
     </div>
 
-    <div class="m-0 row">
+    <div class="row">
         @foreach ($produks_list as $item)
             <div class="px-1 py-0 col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2">
                 <a href="#">
@@ -44,13 +44,11 @@
         @endforeach
     </div>
 
-    <div class="m-0 row">
-        <div class="px-1 py-0 col ">
-            <div class="col-4"></div>
-            <div class="col">
-                <button type="button" class="btn btn-block btn-default btn-flat">LIHAT SEMUA</button>
-            </div>
-            <div class="col-4"></div>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col">
+            <button type="button" class="btn btn-block btn-default btn-flat">LIHAT SEMUA</button>
         </div>
+        <div class="col-4"></div>
     </div>
 </div>

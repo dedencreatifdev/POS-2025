@@ -5,5 +5,5 @@
     <livewire:store.dashboard.komponen.store-produk-list />
 
     {{-- Footer --}}
-    <livewire:store.footer.footer-index />
+
 </div>

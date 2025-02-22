@@ -1,15 +1,11 @@
 <div class="my-3">
-    <div class="text-center card">
-        <div class="p-1 card-header bg-lightblue">
-          Featured
+    <footer class="main-footer">
+        <div class="container">
+            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+            All rights reserved.
+            <div class="float-right d-none d-sm-inline-block">
+                <b>Version</b> 3.2.0
+            </div>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-        <div class="p-1 card-footer text-muted bg-dark">
-          2 days ago
-        </div>
-      </div>
+    </footer>
 </div>

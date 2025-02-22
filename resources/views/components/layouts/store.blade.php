@@ -915,6 +915,7 @@
                 </div>
             </div>
         </div>
+        <livewire:store.footer.footer-index />
     </div>
 </body>
 

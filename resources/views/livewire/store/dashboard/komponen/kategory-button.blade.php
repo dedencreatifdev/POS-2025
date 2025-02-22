@@ -1,4 +1,5 @@
 <div>
+    <div class="card card-primary"></div>
     <div class="row">
         <div class="col">
             <p>Brands</p>
